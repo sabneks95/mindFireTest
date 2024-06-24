@@ -1,0 +1,19 @@
+.card {
+    width: 229px;
+}
+.flex {
+    display: flex;
+}
+.star {
+    display: flex;
+}
+.itemInfo{
+    display: flex;
+}
+.cardContainer{
+    padding: 1%;
+    margin: 2%;
+}
+.emoji{
+    margin-left: auto;
+}

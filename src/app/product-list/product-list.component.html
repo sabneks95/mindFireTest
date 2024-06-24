@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="list-items">
+        <app-product-card 
+        *ngFor="let item of products"
+        [image]="item.images[0]" 
+        [title]="item.title" 
+        [price]="item.price" 
+        [rating]="item.rating"
+        [stars]="item.stars">
+    </app-product-card>
+    </div>
+</div>
