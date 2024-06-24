@@ -1,7 +1,13 @@
 .container {
-    max-width: 904px;
+    max-width: 1382px;
 }
 .list-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width:700px) {
+     .list-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } 
 }
